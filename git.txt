@@ -1,0 +1,11 @@
+mkdir /path/to/your/project
+cd /path/to/your/project
+touch README.md
+git init
+git add README.md
+git ci -m "init commit"
+git remote add origin https://github.com/sysdeep/ci_out.git
+git push -u origin master
+
+
+для отображения русских имён в секции [core] добавить quotepath = false 
