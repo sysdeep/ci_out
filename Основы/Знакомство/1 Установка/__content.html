@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV='CONTENT-TYPE' CONTENT='TEXT/HTML; CHARSET=UTF-8'/>
+
+	<STYLE type="text/css">
+		body, div, p, table {
+			font-size:10pt;
+			font-family:Verdana;
+		}
+
+		img{border:none}
+		
+	</STYLE>
+	
+</HEAD>
+
+<BODY>
+<P>
+<H2>Установка</H2></P>
+
+<P>Забираем версию <A HREF="http://ellislab.com/codeigniter">http://ellislab.com/codeigniter</A>
+<BR>На момент написания версия была - CodeIgniter_2.1.3</P>
+
+<P>Создаём в корне вёб-сервера папочку ciles, и распаковываем в неё содиржимое архива, должно получиться примерно следущее:</P>
+
+<P><IMG SRC="__attach/1.png"/></P>
+
+<P>папочка user_guide впринципе не нужна... там документация... и файл license.txt тоже не нужен</P>
+
+<P>для Linux:
+<BR>необходимо установить права для работы вёб-сервера</P>
+
+<P>выполняем сл. команды:</P>
+
+<P>
+<PRE>sudo chown www-data:www-data ../ciles/ -R
+sudo chmod a+rwx ../ciles/ -R</PRE></P>
+
+<P>первая установит владельцем всех файлов вёб-сервер, а вторая разрешит всем читать и писать в нашей папке</P>
+
+<P>эту операцию необходимо делать только на локальном хостинге во время разработки, когда создаются новые файлы</P>
+
+<P>под windows этих действий совершать не требуется</P>
+
+<P><HR></P>
+
+<P>Можно запустить браузер и посмотреть наш новый сайт))
+<BR><A HREF="http://localhost/ciles/">http://localhost/ciles/</A></P>
+
+<P><IMG SRC="__attach/GoogleChrome.png"/></P>
+</BODY>
+</HTML>
